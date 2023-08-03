@@ -13,8 +13,6 @@ async function main() {
     channel.ack(msg);
   })
 
-  
-
 }
 
 main().catch((err) => console.log(err));
